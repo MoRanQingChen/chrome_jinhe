@@ -1,0 +1,24 @@
+﻿{
+    "name": "谨和文章转发",
+    "description": "自动转发文章到谨和后台系统",
+    "version": "1.0",
+    "permissions": [
+        "http://jinheip.website6534.yizhanwei.com/*",
+        "http://www.szip.gov.cn/info.aspx*",
+        "http://bbs.mysipo.com/thread*",
+        "http://ipms.ujs.edu.cn/show.asp?id=*",
+        "http://www.jsip.gov.cn/*",
+        "http://www.sipo.gov.cn/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "谨和文章转发",
+        "default_icon": "icon.png"
+    },
+    "manifest_version": 2
+}
